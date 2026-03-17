@@ -8,7 +8,7 @@ Terceiro projeto da série de estudos em Visão Computacional. Após aprender a 
 
 Para isso, implementamos o algoritmo **LBPH** (Local Binary Patterns Histograms), que é robusto, leve e eficiente para aprendizado supervisionado.
 
-## 📂 Sobre o Dataset (Yale Faces)
+##  Sobre o Dataset (Yale Faces)
 
 Neste estudo, utilizamos a clássica base de dados **Yale Faces Database**.
 * **O que é:** Um conjunto de imagens contendo 15 indivíduos em 11 condições diferentes (luz central, luz lateral, feliz, triste, com óculos, etc.).
@@ -35,7 +35,7 @@ Você encontrará o seguinte erro ao tentar usar `cv2.face`:
 
 ---
 
-## ⚙️ Configuração de Caminhos (Google Drive)
+##  Configuração de Caminhos (Google Drive)
 
 O código deste projeto foi estruturado para rodar no Google Colab lendo arquivos diretamente do **Google Drive**.
 
@@ -55,7 +55,7 @@ paths = [os.path.join('/content/drive/MyDrive/SeuCaminho/YaleFaces', f) for f in
 
 ---
 
-## 🧠 Como funciona o LBPH?
+##  Como funciona o LBPH?
 
 O **Local Binary Patterns Histograms (LBPH)** analisa a textura local da imagem.
 
@@ -75,7 +75,7 @@ O retorno `confidence` do OpenCV funciona como uma medida de distância/diferen�
 
 ---
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - Python  
 - OpenCV (`cv2.face`)  
@@ -84,10 +84,10 @@ O retorno `confidence` do OpenCV funciona como uma medida de distância/diferen�
 
 ---
 
-## 📂 Estrutura da Série de Estudos
+##  Estrutura da Série de Estudos
 
-- **cv-study-01-haarcascade** – Detecção facial básica.  
-- **cv-study-02-dlib-face-detection** – Comparativo HOG vs CNN.  
+- [**cv-study-01-haarcascade**](https://github.com/LeonardVG/cv-study-01-haarcascade) – Detecção facial básica.  
+- [**cv-study-02-dlib-face-detection**](https://github.com/LeonardVG/cv-study-02-dlib-face-detection) – Comparativo HOG vs CNN.  
 - **cv-study-03-face-recognition-lbph** – Reconhecimento Facial (este repositório).
 
 ---
